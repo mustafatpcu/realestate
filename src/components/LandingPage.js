@@ -46,6 +46,25 @@ const LandingPage = () => {
       </div>
 
       {/* Introduction Section */}
+
+      <section className="partnership-section">
+  <h2>Our Partners</h2>
+  <div className="scroll-container">
+    <div className="logo-strip">
+      <img src="/fb.png" alt="Brand 1" />
+      <img src="/gs.png" alt="Brand 2" />
+      <img src="/konyaspor.png" alt="Brand 3" />
+      <img src="/sahibinden.png" alt="Brand 4" />
+      {/* Duplicate logos for seamless looping */}
+      <img src="/fb.png" alt="Brand 1" />
+      <img src="/gs.png" alt="Brand 2" />
+      <img src="/konyaspor.png" alt="Brand 3" />
+      <img src="/sahibinden.png" alt="Brand 4" />
+      
+    </div>
+  </div>
+</section>
+
       <section className="intro-section">
         <div className="intro-content">
           <h2>Welcome to Our World</h2>

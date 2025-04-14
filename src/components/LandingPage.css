@@ -199,3 +199,48 @@
   .footer-links li a:hover {
     color: white;
   }
+
+  .partnership-section {
+    padding: 3rem 1rem;
+    background: #fff7fa;
+    text-align: center;
+  }
+  
+  .partnership-section h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: #333;
+  }
+  
+  .scroll-container {
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .logo-strip {
+    display: flex;
+    width: fit-content;
+    animation: scroll-right 17s linear infinite;
+  }
+  
+  .logo-strip img {
+    height: 120px;
+    margin: 0 4rem;
+    object-fit: contain;
+    filter: grayscale(10%);
+    transition: filter 0.3s ease;
+  }
+  
+  .logo-strip img:hover {
+    filter: grayscale(0%);
+  }
+  
+  @keyframes scroll-right {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(+50%);
+    }
+  }
+  
