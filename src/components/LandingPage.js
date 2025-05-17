@@ -51,16 +51,17 @@ const LandingPage = () => {
   <h2>Our Partners</h2>
   <div className="scroll-container">
     <div className="logo-strip">
-      <img src="/fb.png" alt="Brand 1" />
-      <img src="/gs.png" alt="Brand 2" />
-      <img src="/konyaspor.png" alt="Brand 3" />
+      <img src="/era.png" alt="Brand 1" />
+      <img src="/keller.png" alt="Brand 2" />
+      <img src="/zllow.png" alt="Brand 3" />
       <img src="/sahibinden.png" alt="Brand 4" />
+      <img src="/realtor.png" alt="Brand 4" />
       {/* Duplicate logos for seamless looping */}
-      <img src="/fb.png" alt="Brand 1" />
-      <img src="/gs.png" alt="Brand 2" />
-      <img src="/konyaspor.png" alt="Brand 3" />
+      <img src="/era.png" alt="Brand 1" />
+      <img src="/keller.png" alt="Brand 2" />
+      <img src="/zllow.png" alt="Brand 3" />
       <img src="/sahibinden.png" alt="Brand 4" />
-      
+      <img src="/realtor.png" alt="Brand 4" />
     </div>
   </div>
 </section>
@@ -80,7 +81,7 @@ const LandingPage = () => {
 
       <section className="product-showcase">
         <div className="product-grid">
-          <a href="/products/1" className="product-card">
+          <a href="/details" className="product-card">
             <img src="/housepic.png" alt="Product 1" className="product-image" />
             <h3 className="product-title">Product One</h3>
           </a>
