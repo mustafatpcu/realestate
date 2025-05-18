@@ -47,7 +47,7 @@ const LandingPage = () => {
 
       {/* Introduction Section */}
 
-      <section className="partnership-section">
+  <section className="partnership-section">
   <h2>Our Partners</h2>
   <div className="scroll-container">
     <div className="logo-strip">
@@ -55,16 +55,23 @@ const LandingPage = () => {
       <img src="/keller.png" alt="Brand 2" />
       <img src="/zllow.png" alt="Brand 3" />
       <img src="/sahibinden.png" alt="Brand 4" />
-      <img src="/realtor.png" alt="Brand 4" />
+      <img src="/realtor.png" alt="Brand 5" />
       {/* Duplicate logos for seamless looping */}
       <img src="/era.png" alt="Brand 1" />
       <img src="/keller.png" alt="Brand 2" />
       <img src="/zllow.png" alt="Brand 3" />
       <img src="/sahibinden.png" alt="Brand 4" />
-      <img src="/realtor.png" alt="Brand 4" />
+      <img src="/realtor.png" alt="Brand 5" />
+
+      <img src="/era.png" alt="Brand 1" />
+      <img src="/keller.png" alt="Brand 2" />
+      <img src="/zllow.png" alt="Brand 3" />
+      <img src="/sahibinden.png" alt="Brand 4" />
+      <img src="/realtor.png" alt="Brand 5" />
     </div>
   </div>
 </section>
+
 
       <section className="intro-section">
         <div className="intro-content">
