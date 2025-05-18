@@ -34,12 +34,13 @@
   list-style: none;
   margin: 0;
   padding: 0;
+  color: #000000;
 }
 
 .hd-nav-links a {
   text-decoration: none;
   font-size: 1rem;
-  color: #4a90e2;
+  color: #000000;
   font-weight: 500;
   transition: color 0.2s ease;
 }
@@ -247,3 +248,9 @@
     width: 100%;
   }
 } 
+
+.summary-description.price {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #000000; /* You can customize this color */
+}

@@ -82,20 +82,20 @@ const LandingPage = () => {
       <section className="product-showcase">
         <div className="product-grid">
           <a href="/details" className="product-card">
-            <img src="/housepic.png" alt="Product 1" className="product-image" />
-            <h3 className="product-title">Product One</h3>
+            <img src="/2.jpg" alt="Product 1" className="product-image" />
+            <h3 className="product-title">3018 W Morrell St, Jackson, MI 49203</h3>
           </a>
-          <a href="/products/2" className="product-card">
-            <img src="/housepic.png" alt="Product 2" className="product-image" />
-            <h3 className="product-title">Product Two</h3>
+          <a href="#s" className="product-card">
+            <img src="/other1.jpg" alt="Product 2" className="product-image" />
+            <h3 className="product-title">120 Charles St, Jackson, MI 49203</h3>
           </a>
-          <a href="/products/3" className="product-card">
-            <img src="/housepic.png" alt="Product 3" className="product-image" />
-            <h3 className="product-title">Product Three</h3>
+          <a href="#s" className="product-card">
+            <img src="/other2.jpg" alt="Product 3" className="product-image" />
+            <h3 className="product-title">4175 Springport Rd</h3>
           </a>
-          <a href="/products/4" className="product-card">
-            <img src="/housepic.png" alt="Product 4" className="product-image" />
-            <h3 className="product-title">Product Four</h3>
+          <a href="#s" className="product-card">
+            <img src="/other3.jpg" alt="Product 4" className="product-image" />
+            <h3 className="product-title">Jackson, MI 49201</h3>
           </a>
         </div>
       </section>
