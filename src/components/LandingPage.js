@@ -63,11 +63,7 @@ const LandingPage = () => {
       <img src="/sahibinden.png" alt="Brand 4" />
       <img src="/realtor.png" alt="Brand 5" />
 
-      <img src="/era.png" alt="Brand 1" />
-      <img src="/keller.png" alt="Brand 2" />
-      <img src="/zllow.png" alt="Brand 3" />
-      <img src="/sahibinden.png" alt="Brand 4" />
-      <img src="/realtor.png" alt="Brand 5" />
+      
     </div>
   </div>
 </section>
