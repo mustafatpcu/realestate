@@ -34,9 +34,13 @@ export default function HouseDetails() {
   return (
     <div className="hd-container">
       <nav className="hd-navbar">
-        <div className="hd-logo">🏠 ORG 404</div>
+        <div className="hd-logo">
+          <div className="logo-container">
+             <img src="/org_logoblack.png" alt="Logo" className="logo-image" />
+            </div>
+        </div>
         <ul className="hd-nav-links">
-          <li><a href="/">Home</a></li>
+          <li><a href="/"><strong>Home</strong></a></li>
           
         </ul>
       </nav>
